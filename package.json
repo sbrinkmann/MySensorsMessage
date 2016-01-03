@@ -1,5 +1,5 @@
 {
-  "name": "MySensorsMessages",
+  "name": "MySensorsMessage",
   "version": "1.5.1",
   "description": "",
   "main": "./lib/MySensorsMessage",
