@@ -7,8 +7,8 @@ The aim of MySensorMessage is to provide a Node.js module which is able to parse
 var MySensorsMessage = require('MySensorsMessage');
 
 //A function which is called when a MySensorsMessage is received and shall be processed
-function processMySesnsorsMessage(mySesnrosRawMessage) {
-    var receivedMessage = new MySensorsMessage(mySesnrosRawMessage);
+function processMySesnsorsMessage(mySensorsRawMessage) {
+    var receivedMessage = new MySensorsMessage(mySensorsRawMessage);
     console.log("Sender Node ID: " + receivedMessage.nodeId); //Number
     console.log("Child Sensor ID: " + receivedMessage.childSensorId); //Number
     console.log("Message Type: " + receivedMessage.messageType.value); //ENUM which provides the attributes ".value", ".id", ".comment"
