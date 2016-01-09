@@ -2,6 +2,12 @@
 The aim of MySensorMessage is to provide a Node.js module which is able to parse or generate messages which are used by the [MySensors](http://www.mysensors.org/) project. It is compatible with the [serial protocol](http://www.mysensors.org/download/serial_api_15) of version 1.5. It simplifies the communication with the sensors network but doesn't cover the managing the connection to the gateway. So it can be used with serial or ethernet gateways. To use this library you need Node.js version 5.0 or greater.
 
 
+## Deploy Node Module
+This module is currently not hosted on www.npmjs.com but when you want to try it, just pull it with npm into your project.
+```
+npm install https://github.com/sbrinkmann/MySensorsMessage
+```
+
 ## Parse Message
 ```js
 var MySensorsMessage = require('MySensorsMessage');
