@@ -12,5 +12,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sbrinkmann/MySensorsMessage.git"
+  },
+  "dependencies": {
+    "string-template": "^1.0.0"
   }
 }
